@@ -1,0 +1,42 @@
+{
+  "workspace": "/absolute/path/to/collector-workspace",
+  "work_dir": "/absolute/path/to/collector-workspace/work/collector",
+  "output_dir": "/absolute/path/to/collector-workspace/outputs/collector",
+  "mediacrawler_root": "/absolute/path/to/MediaCrawler",
+  "asr_python": "/absolute/path/to/asr-venv/bin/python",
+  "ffmpeg": "/absolute/path/to/ffmpeg",
+  "ffprobe": "/absolute/path/to/ffprobe",
+  "destination": "sheets",
+  "spreadsheet_token": "REPLACE_WITH_SPREADSHEET_TOKEN",
+  "sheet_id": "REPLACE_WITH_SHEET_ID",
+  "sheets_url": "https://your-tenant.feishu.cn/sheets/REPLACE_WITH_SPREADSHEET_TOKEN",
+  "transcript_folder_token": "REPLACE_WITH_FOLDER_TOKEN",
+  "cloud_transcripts_path": "/absolute/path/to/collector-workspace/work/collector/cloud-transcripts.json",
+  "sort_newest_first": true,
+  "excel_path": "/absolute/path/to/collector-workspace/outputs/content-library/content-library.xlsx",
+  "base_token": "",
+  "table_id": "",
+  "base_url": "",
+  "node": "/absolute/path/to/node",
+  "node_modules": "/absolute/path/to/node_modules",
+  "spreadsheet_python": "/absolute/path/to/python3",
+  "max_pages_per_creator": 10,
+  "max_new_per_run": 20,
+  "retain_video": false,
+  "upload_video": false,
+  "creators": [
+    {
+      "name": "示例博主",
+      "douyin_id": "REPLACE_WITH_DOUYIN_ID",
+      "sec_user_id": "REPLACE_WITH_VERIFIED_SEC_USER_ID",
+      "enabled": false,
+      "initial_count": 10
+    }
+  ],
+  "automation": {
+    "id": null,
+    "kind": "cron",
+    "status": "PAUSED",
+    "project_id": null
+  }
+}
