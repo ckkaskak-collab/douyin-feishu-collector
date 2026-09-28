@@ -1,0 +1,4 @@
+interface:
+  display_name: "抖音博主内容采集"
+  short_description: "用MediaCrawler采集博主新作品、转写口播并增量更新配置中的Excel或飞书表格"
+  default_prompt: "使用 $douyin-feishu-collector 检查已登记博主的新作品，转写口播并增量更新配置中的内容素材库。"
